@@ -1,0 +1,22 @@
+*{margin: 0;padding: 0; box-sizing: border-box;}
+header{
+    background-color: #605142;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* img{
+    width: 100%;
+} */
+.carousel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    background-color: #FFE8D6;
+}
+nav{
+    background-color: #816a5b;
+    color: white;
+}
