@@ -1,13 +1,17 @@
 *{margin: 0;padding: 0; box-sizing: border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+main{
+    background-color: #FFE8D6;
+}
 header{
     background-color: #605142;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-/* img{
+img{
     width: 100%;
-} */
+} 
 .carousel{
     display: flex;
     align-items: center;
@@ -19,4 +23,50 @@ body{
 nav{
     background-color: #816a5b;
     color: white;
+    font-style: italic;
 }
+#cim{font-weight: bold;} 
+.card-body{
+    background-color: #DDBEA9;
+}
+
+.valami{
+    height: 400px;
+    width: 300px;
+    position: relative;
+    box-shadow: 2px 2px 10px;
+}
+.kep_szoveg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 2rem 2rem 2rem;
+}
+h3{
+    padding: 1rem;
+}
+.szoveg1{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    text-align: center;
+}
+
+footer{
+    background-color: #B7B7A4;
+    height: 15rem;
+}
+/* .card-header{
+    background-color: #CB997E;
+}
+.card-footer{
+    color: #CB997E;
+} */
