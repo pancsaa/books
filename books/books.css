@@ -126,3 +126,54 @@ footer i{
     transition: 0.3s;
     transform: scale(1.05);
 }
+.right{
+    position: absolute;
+    font-size: 1rem;
+    padding: .5rem .7rem;
+    background-color: black;
+    border-radius: 50%;
+    top: 50%;
+    right: 0;
+    display: flex;
+    height: 2rem;
+    width: 2rem;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px;
+}
+.picborder{
+    position: relative;
+    align-items: center;
+}
+.left{
+    position: absolute;
+    font-size: 1rem;
+    padding: .5rem .7rem;
+    background-color: black;
+    border-radius: 50%;
+    top: 50%;
+    left: 0;
+    display: flex;
+    height: 2rem;
+    width: 2rem;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px;
+}
+.lines{
+    position: absolute;
+    bottom: 0;
+    right: 38%;
+    font-size: 1.5rem;
+}
+.white{
+    color: white;
+    /*box-shadow: 2px 2px 10px black;*/
+    /*border: 1px solid black;*/
+    margin: 0;
+    padding: 0;
+}
