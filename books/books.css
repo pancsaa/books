@@ -20,7 +20,7 @@ img{
 }
 body{
     background-color: #FFE8D6;
-    font-family: "Sedan", serif;
+    /*font-family: "Sedan", serif;*/
     
 }
 nav{
@@ -77,12 +77,13 @@ nav{
     margin: 30px;
     box-shadow: 2px 2px 10px #605142;
     border-radius: 20px;
-    background-image: url("./img/papir2.jpg");
+    /*background-image: url("./img/papir2.jpg");*/
 } 
 
 h3{
     padding: 1rem;
     font-weight:bolder;
+    color: white;
 }
 .szoveg1{
     padding-left: 5rem;
@@ -176,4 +177,80 @@ footer i{
     /*border: 1px solid black;*/
     margin: 0;
     padding: 0;
+}
+.box1{
+    background-image: url("img/uglylove-bg.jpg");
+    background-size: cover;
+} 
+
+.box2{
+    background-image: url("./img/hauntingadaline-bg.jpg");
+    background-size: cover; 
+}
+
+.box3{
+    background-image: url("./img/shatterme-bg.jpg");
+    background-size: cover;
+}
+
+.box4{
+    background-image: url("./img/verity-bg.jpg");
+    background-size: cover;
+}
+
+.box5{
+    background-image: url("./img/dune-bg.jpg");
+    background-size: cover;
+}
+
+.box6{
+    background-image: url("./img/milkandhoney-bg.jpg");
+    background-size: cover;
+}
+footer{
+    background-color: #816a5b; 
+    height: 14rem;
+    color: white;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+footer i{
+    font-size: 1.5rem;
+}
+
+.all{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contact{
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#c-header{
+    background-color: #CB997E;
+}
+
+#c-footer{
+    background-color: #CB997E;
+} 
+
+.card-title{
+    font-weight: bold;
+}
+
+.box1:hover, .box2:hover, .box3:hover, .box4:hover, .box5:hover, .box6:hover{
+    transition: 0.3s;
+    transform: scale(1.05);
+}
+/* @media screen (max-width:720px;) {
+    
+} */
+.itsnotworking{
+    color: white !important;
 }
