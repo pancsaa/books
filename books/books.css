@@ -80,16 +80,19 @@ nav{
     /*background-image: url("./img/papir2.jpg");*/
 } 
 
+
+
 h3{
     padding: 1rem;
-    font-weight:bolder;
-    color: white;
+    font-weight:bold;
+    color: white !important
 }
 .szoveg1{
     padding-left: 5rem;
     padding-right: 5rem;
     text-align: center;
     font-weight: bold;
+    color: white;
 }
 
 footer{
@@ -178,35 +181,36 @@ footer i{
     margin: 0;
     padding: 0;
 }
-.box1{
-    background-image: url("img/uglylove-bg.jpg");
+
+ .box1{
+    background-image: url("../img/uglylove-bg.jpg");
     background-size: cover;
 } 
 
 .box2{
-    background-image: url("./img/hauntingadaline-bg.jpg");
+    background-image: url("../img/hauntingadaline-bg.jpg");
     background-size: cover; 
 }
 
 .box3{
-    background-image: url("./img/shatterme-bg.jpg");
+    background-image: url("../img/shatterme-bg.jpg");
     background-size: cover;
 }
 
 .box4{
-    background-image: url("./img/verity-bg.jpg");
+    background-image: url("../img/verity-bg1.jpg");
     background-size: cover;
 }
 
 .box5{
-    background-image: url("./img/dune-bg.jpg");
+    background-image: url("../img/dune-bg.jpg");
     background-size: cover;
 }
 
 .box6{
-    background-image: url("./img/milkandhoney-bg.jpg");
+    background-image: url("../img/milkandhoney-bg1.jpg");
     background-size: cover;
-}
+} 
 footer{
     background-color: #816a5b; 
     height: 14rem;
@@ -244,13 +248,13 @@ footer i{
     font-weight: bold;
 }
 
-.box1:hover, .box2:hover, .box3:hover, .box4:hover, .box5:hover, .box6:hover{
+/* .box1:hover, .box2:hover, .box3:hover, .box4:hover, .box5:hover, .box6:hover{
     transition: 0.3s;
     transform: scale(1.05);
-}
+} */
 /* @media screen (max-width:720px;) {
     
 } */
-.itsnotworking{
+/* .itsnotworking{
     color: white !important;
-}
+} */
