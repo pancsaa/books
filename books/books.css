@@ -171,7 +171,7 @@ footer i{
 .lines{
     position: absolute;
     bottom: 0;
-    right: 38%;
+    right: 30%;
     font-size: 1.5rem;
 }
 .white{
@@ -183,32 +183,32 @@ footer i{
 }
 
  .box1{
-    background-image: url("../img/uglylove-bg.jpg");
+    background-image: url("../img/romance-bg.jpg");
     background-size: cover;
 } 
 
 .box2{
-    background-image: url("../img/hauntingadaline-bg.jpg");
+    background-image: url("../img/darkromance-bg.jpg");
     background-size: cover; 
 }
 
 .box3{
-    background-image: url("../img/shatterme-bg.jpg");
+    background-image: url("../img/dystopian-bg.jpg");
     background-size: cover;
 }
 
 .box4{
-    background-image: url("../img/verity-bg1.jpg");
+    background-image: url("../img/thriller-bg.jpg");
     background-size: cover;
 }
 
 .box5{
-    background-image: url("../img/dune-bg.jpg");
+    background-image: url("../img/scifi-bg.jpg");
     background-size: cover;
 }
 
 .box6{
-    background-image: url("../img/milkandhoney-bg1.jpg");
+    background-image: url("../img/poetry-bg.jpg");
     background-size: cover;
 } 
 footer{
@@ -258,6 +258,8 @@ footer i{
     .row1, .row2, .row3{
         display: flex;
         flex-direction: column;
+   /*      justify-content: center;
+        align-items: center; */
     }
     .kep_szoveg{
         display: flex;
@@ -265,12 +267,31 @@ footer i{
         gap: 1rem;
     }
     .szoveg1{
-        font-size: .8rem;
+        font-size: .6rem;
+        margin: 0;
+        padding: 0;
     }
     .box{
         padding-left: 2rem;
         padding-right: 2rem;
         padding: 1rem;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    h3{
+        font-size: 1rem;
+        padding: 0;
+        margin: 0;
+    }
+    .uglylove, .shatterme, .verity, .milkandhoney, .hauntingadeline, .dune{
+        height: 300px;
+        width: 200px;
+    }
+    .szoveg1{
+        font-size: .6rem;
+        margin: 0;
+        padding: 0;
     }
     /* .uglylove, .shatterme, .verity, .milkandhoney, .hauntingadeline, .dune{
         height: 200px;
@@ -286,6 +307,9 @@ footer i{
     }
     .szoveg1{
         font-size: .8rem;
+        margin: 0;
+        padding-left: 10px;
+        padding: 0;
     }
     /*img{
         width: 80%;
@@ -294,31 +318,55 @@ footer i{
     .box{
         padding-left: 2rem;
         padding-right: 2rem;
+        display: flex;
+
     }
-    /* .uglylove, .shatterme, .verity, .milkandhoney, .hauntingadeline, .dune{
-        height: 200px;
-        width: 100px;
-    } */
+    .uglylove, .shatterme, .verity, .milkandhoney, .hauntingadeline, .dune{
+        height: 300px;
+        width: 200px;
+    }
+
+}
+@media (max-width:1800px){
+    .szoveg1{
+        font-size: .8rem;
+        margin: 0;
+        padding-left: 10px;
+        padding: 0;
+    }
+    /*img{
+        width: 80%;
+        height: 80%;
+    }*/
+    .box{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        display: flex;
+
+    }
+    .uglylove, .shatterme, .verity, .milkandhoney, .hauntingadeline, .dune{
+        height: 300px;
+        width: 200px;
+    }
 }
 /* .itsnotworking{
     color: white !important;
 } */
-@media (max-width:390px){
+
+/*phone*/
+@media (max-width:500px){
     .row1, .row2, .row3{
         display: flex;
         flex-direction: column;
     }
     .szoveg1{
-        font-size: .5rem;
+        font-size: .6rem;
         margin: 0;
         padding: 0;
     }
     img{
         width: 200%;
         height: 200%;
-    }
-    h3{
-        font-size: 10px;
     }
     .all{
         display: flex;
@@ -345,6 +393,13 @@ footer i{
         row-gap: 0;
     }
     footer i{
+        font-size: 1rem;
+    }
+    .uglylove, .shatterme, .verity, .milkandhoney, .hauntingadeline, .dune{
+        height: 300px;
+        width: 200px;
+    }
+    h3{
         font-size: 1rem;
     }
 }
