@@ -183,12 +183,12 @@ footer i{
 }
 
  .box1{
-    background-image: url("../img/romance-bg.jpg");
+    background-image: url("../books/img/darkromance_blur-bg.png");
     background-size: cover;
 } 
 
 .box2{
-    background-image: url("../img/darkromance-bg.jpg");
+    background-image: url("../books/img/darkromance2_blur-bg.jpg");
     background-size: cover; 
 }
 
