@@ -183,7 +183,7 @@ footer i{
 }
 
  .box1{
-    background-image: url("../books/img/darkromance_blur-bg.png");
+    background-image: url("../books/img/romance3-bg.jpg");
     background-size: cover;
 } 
 
@@ -193,22 +193,22 @@ footer i{
 }
 
 .box3{
-    background-image: url("../img/dystopian-bg.jpg");
+    background-image: url("../books/img/df_bluir_1.jpg");
     background-size: cover;
 }
 
 .box4{
-    background-image: url("../img/thriller-bg.jpg");
+    background-image: url("../books/img/thriller2blur-bg.jpg");
     background-size: cover;
 }
 
 .box5{
-    background-image: url("../img/scifi-bg.jpg");
+    background-image: url("../books/img/dune-bg3.jpg");
     background-size: cover;
 }
 
 .box6{
-    background-image: url("../img/poetry-bg.jpg");
+    background-image: url("../books/img/milkandhoney-bg.jpg");
     background-size: cover;
 } 
 footer{
